@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mapasuno">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsMarravilla"
+            android:label="@string/title_activity_maps_marravilla"></activity>
+        <activity
+            android:name=".Mapsturisticos"
+            android:label="@string/title_activity_mapsturisticos" />
+        <activity
+            android:name=".Marravillas.Cristos"
+            android:label="@string/title_activity_cristos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Marravillas.Murralla"
+            android:label="@string/title_activity_murralla"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Menusitiosturisticos.color"
+            android:label="@string/title_activity_color"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Menusitiosturisticos.titicaca"
+            android:label="@string/title_activity_titicaca"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Menusitiosturisticos.Menusitioturistico"
+            android:label="@string/title_activity_menusitioturistico"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MarravillaAntigua.Menumarravillaantigua"
+            android:label="@string/title_activity_menumarravillaantigua"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Splash.SplashMarravillaantigua2" />
+        <activity android:name=".Splash.SplashMarravillaantigua1" />
+        <activity
+            android:name=".Marravillas.Menumarravillas"
+            android:label="@string/title_activity_menumarravillas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Splash.SplashMarravilla2" />
+        <activity android:name=".Splash.SplashMarravilla1" />
+        <activity android:name=".Splash.SplashMain3" />
+        <activity android:name=".Splash.SplashMain2" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Splash.SplashMain1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

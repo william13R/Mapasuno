@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Marravillas.Menumarravillas"
+    tools:showIn="@layout/activity_menumarravillas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="428dp"
+                android:layout_marginTop="69.5dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnchina"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="1dp"
+                    android:background="#f5fffa"
+                    android:paddingBottom="5dp"
+                    android:text="         La Gran Murralla China"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textSize="15dp"
+                    android:gravity="start" />
+
+                <Button
+                    android:id="@+id/btnbrasil"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="1dp"
+                    android:background="#f5f5f5"
+                    android:paddingBottom="5dp"
+                    android:text="         El Cristo Redemptor"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textSize="15dp"
+                    android:gravity="start" />
+
+                <Button
+                    android:id="@+id/btnroma"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="1dp"
+                    android:background="#f5fffa"
+                    android:paddingBottom="5dp"
+                    android:text="         El Coliseo de Roma"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textSize="15dp"
+                    android:gravity="start" />
+
+                <Button
+                    android:id="@+id/btnperu"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="1dp"
+                    android:background="#f5f5f5"
+                    android:paddingBottom="5dp"
+                    android:text="         Machu Picchu de Peru"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textSize="15dp"
+                    android:gravity="start" />
+
+                <Button
+                    android:id="@+id/btnmexico"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="1dp"
+                    android:background="#f5fffa"
+                    android:paddingBottom="5dp"
+                    android:text="         Chichen Itza en Mexico"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textSize="15dp"
+                    android:gravity="start" />
+
+
+                <Button
+                    android:id="@+id/btnjordania"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="1dp"
+                    android:background="#f5fffa"
+                    android:paddingBottom="5dp"
+                    android:text="         Petra en Jordania"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+
+                    android:textSize="15dp"
+                    android:gravity="start" />
+
+                <Button
+                    android:id="@+id/btnmapas"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="1dp"
+                    android:background="#f5fffa"
+                    android:gravity="start"
+                    android:paddingBottom="5dp"
+                    android:text="         Ir Mapa"
+                    android:textAlignment="textStart"
+
+                    android:textAllCaps="false"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnmapass"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="1dp"
+                    android:background="#f5fffa"
+                    android:gravity="start"
+                    android:paddingBottom="5dp"
+                    android:text="         Ir Mapa"
+                    android:textAlignment="textStart"
+
+                    android:textAllCaps="false"
+                    android:textSize="15dp"
+                    android:visibility="invisible" />
+
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
